@@ -29,6 +29,6 @@ StepperDriverライブラリ（Arduino）と, ステッピングモータード�
   以上でStepperDriverライブラリの導入は完了
 
 ## Circuit
-![回路図](A4988-1.png)
+![回路図](a4988-1.png)
 
   
