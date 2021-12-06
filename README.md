@@ -1,7 +1,7 @@
 # StepperMotor_A4988
 
 ## Overview
-StepperDriverライブラリ（Arduino）と, ステッピングモータードライバモジュールA4988を用いた, バイポーラ型ステッピングモーターの制御
+StepperDriverライブラリと, ステッピングモータードライバモジュールA4988を用いた, バイポーラ型ステッピングモーターの制御
 
 ## Description
 [参考サイト](https://iot.keicode.com/arduino/arduino-stepper-motor-a4988.php?utm_source=pocket_mylist)  
@@ -12,7 +12,7 @@ StepperDriverライブラリ（Arduino）と, ステッピングモータード�
 ◇一回転ステップ角： 200  
 [例えばこんなもの](https://akizukidenshi.com/catalog/g/gP-05372/)  
 <br>
-マイコンはArduino（ココでは, Arduino Uno R3）を想定  
+制御用のマイコンはArduino（ココでは, Arduino Uno R3）を想定  
 但しココでは, Arduino IDEのインストール方法については扱わない
 
 ## Install
@@ -29,6 +29,6 @@ StepperDriverライブラリ（Arduino）と, ステッピングモータード�
   以上でStepperDriverライブラリの導入は完了
 
 ## Circuit
-![回路図](a4988-1.png)
-
-  
+![回路図](a4988-1.png)  
+注意点  
+  ・外部電源の電圧は9V以上でなければ動かない
