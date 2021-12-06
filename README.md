@@ -4,12 +4,12 @@
 StepperDriverライブラリ（Arduino）と, ステッピングモータードライバモジュールA4988を用いた, バイポーラ型ステッピングモーターの制御
 
 ## Description
-[参考サイト](https://iot.keicode.com/arduino/arduino-stepper-motor-a4988.php?utm_source=pocket_mylist)
+[参考サイト](https://iot.keicode.com/arduino/arduino-stepper-motor-a4988.php?utm_source=pocket_mylist)  
 【Hardware】  
 想定するステッピングモーターの主な仕様  
-▪バイポーラタイプ  
-▪相数： 2  
-▪一回転ステップ角： 200  
+◇バイポーラタイプ  
+◇相数： 2  
+◇一回転ステップ角： 200  
 [例](https://akizukidenshi.com/catalog/g/gP-05372/)  
 <br>
 マイコンはArduino（ココでは, Arduino Uno R3）を想定  
