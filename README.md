@@ -10,7 +10,7 @@ StepperDriverライブラリ（Arduino）と, ステッピングモータード�
 ◇バイポーラタイプ  
 ◇相数： 2  
 ◇一回転ステップ角： 200  
-[例](https://akizukidenshi.com/catalog/g/gP-05372/)  
+[例えばこんなもの](https://akizukidenshi.com/catalog/g/gP-05372/)  
 <br>
 マイコンはArduino（ココでは, Arduino Uno R3）を想定  
 但しココでは, Arduino IDEのインストール方法については扱わない
@@ -29,5 +29,6 @@ StepperDriverライブラリ（Arduino）と, ステッピングモータード�
   以上でStepperDriverライブラリの導入は完了
 
 ## Circuit
+![回路図](A4988-1.png)
 
   
