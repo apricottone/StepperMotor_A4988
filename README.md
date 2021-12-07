@@ -1,7 +1,8 @@
 # StepperMotor_A4988
 
 ## Overview
-StepperDriverライブラリと, ステッピングモータードライバモジュールA4988を用いた, バイポーラ型ステッピングモーターの制御
+StepperDriverライブラリと, ステッピングモータードライバモジュールA4988を用いた, バイポーラ型ステッピングモーターの制御  
+[参考にさせていただいたサイト](https://iot.keicode.com/arduino/arduino-stepper-motor-a4988.php?utm_source=pocket_mylist)
 
 ## Description
 【Hardware】  
