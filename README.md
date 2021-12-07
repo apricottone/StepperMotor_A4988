@@ -4,8 +4,9 @@
 StepperDriverライブラリと, ステッピングモータードライバモジュールA4988を用いた, バイポーラ型ステッピングモーターの制御
 
 ## Description
-[参考サイト](https://iot.keicode.com/arduino/arduino-stepper-motor-a4988.php?utm_source=pocket_mylist)  
 【Hardware】  
+ステッピングモータードライバモジュールとは, モーターを回す上で必要な電流を外部から供給するIC（供給を仲介。マイコンの不足分を補う）  
+A4988はその一種  
 想定するステッピングモーターの主な仕様  
 ◇バイポーラタイプ  
 ◇相数： 2  
@@ -15,7 +16,7 @@ StepperDriverライブラリと, ステッピングモータードライバモ�
 制御用のマイコンはArduino（ココでは, Arduino Uno R3）を想定  
 但しココでは, Arduino IDEのインストール方法については扱わない
 
-## Install
+## Installation
 ### StepperDriverライブラリのインストール方法（for Mac）  
 デフォルトで入っているライブラリではないので, まずはインストールする  
   1. 画面上部, 「スケッチメニュー」から「ライブラリをインクルード」を選択  
@@ -32,3 +33,4 @@ StepperDriverライブラリと, ステッピングモータードライバモ�
 ![回路図](a4988-1.png)  
 注意点  
   ・外部電源の電圧は9V以上でなければ動かない
+
